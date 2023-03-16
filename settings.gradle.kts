@@ -3,11 +3,9 @@ plugins {
 }
 
 include("subclass",
-    "inline",
     "proxy",
     "extTest",
     "groovyTest",
-    "groovyInlineTest",
     "kotlinTest",
     "kotlinReleaseCoroutinesTest",
     "android",
